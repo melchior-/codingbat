@@ -30,7 +30,6 @@ def last2(str):
         substr = str[i:i+2]
         if substr == last2:
             max += 1
-        
     return max
 
 def array_count9(nums):
@@ -41,4 +40,11 @@ def array_front9(nums):
         return nums.count(9) >= 1
     else:
         return nums[0:4].count(9) >= 1
-        
+
+def array123(nums):
+    for i in range(0, len(nums)-2):
+        if (nums[i] == 1 and nums[i+1] == 2 and nums[i+2] == 3):
+            return True
+    return False
+
+array123([1,1,2,3,1])
