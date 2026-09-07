@@ -47,4 +47,14 @@ def array123(nums):
             return True
     return False
 
-array123([1,1,2,3,1])
+def string_match(a, b):
+    count = 0
+    str = ""
+    if len(a) <= len(b):
+        str = a
+    else:
+        str = b
+    for i in range(0, len(str)-1):
+        if(a[i:i+2] == b[i:i+2]):
+            count += 1
+    return count
