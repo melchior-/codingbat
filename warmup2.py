@@ -22,3 +22,16 @@ def string_splosion(str):
         substr = str[0:i]
         return_str += substr
     return return_str + str
+
+def last2(str):
+    max = 0
+    last2 = str[len(str)-2:]
+    for i in range(0, len(str)-2):
+        substr = str[i:i+2]
+        if substr == last2:
+            max += 1
+        
+    return max
+
+
+        
