@@ -9,3 +9,6 @@ def same_first_last(nums):
         return True
     else:
         return False
+
+def make_pi():
+    return [3,1,4]
