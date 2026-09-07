@@ -13,3 +13,9 @@ def date_fashion(you, date):
     elif you <= 2 or date <= 2:
         return 0
     else: return 1
+
+def squirrel_play(temp, is_summer):
+    if is_summer:
+        return temp >= 60 and temp <= 100
+    else:
+        return temp >= 60 and temp <= 90
