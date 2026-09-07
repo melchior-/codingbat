@@ -37,3 +37,8 @@ def combo_string(a, b):
 
 def non_start(a, b):
     return a[1:] + b[1:]
+
+def left2(str):
+    return str[2:] + str[:2]
+
+print(left2("Hello"))
