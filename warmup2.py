@@ -33,5 +33,6 @@ def last2(str):
         
     return max
 
-
+def array_count9(nums):
+    return nums.count(9)
         
