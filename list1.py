@@ -41,4 +41,6 @@ def sum2(nums):
         for i in range(0, 2):
             count += nums[i]
     return count
-    
+
+def middle_way(a, b):
+    return [a[1], b[1]]
