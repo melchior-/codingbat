@@ -42,3 +42,11 @@ def end_other(a, b):
             return False
     else:
         return False
+
+def xyz_there(str):
+    count1 = str.count('.xyz')
+    count2 = str.count('xyz')
+    if count2 > count1:
+        return True
+    else:
+        return False
