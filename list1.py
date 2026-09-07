@@ -44,3 +44,6 @@ def sum2(nums):
 
 def middle_way(a, b):
     return [a[1], b[1]]
+
+def make_ends(nums):
+    return [nums[0], nums[-1]]
