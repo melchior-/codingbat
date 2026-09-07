@@ -24,3 +24,21 @@ def rotate_left3(nums):
 
 def reverse3(nums):
     return [nums[2], nums[1], nums[0]]
+
+def max_end3(nums):
+    if nums[0] > nums[-1]:
+        return [nums[0], nums[0], nums[0]]
+    else:
+        return [nums[-1], nums[-1], nums[-1]]
+
+def sum2(nums):
+    count = 0
+    if (len(nums) == 0):
+        return 0
+    elif (len(nums) == 1):
+        return nums[0]
+    else:
+        for i in range(0, 2):
+            count += nums[i]
+    return count
+    
