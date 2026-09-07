@@ -37,3 +37,11 @@ def makes10(a, b):
         return True
     else:
         return False
+
+def near_hundred(n):
+    diff = abs(n - 100)
+    diff2 = abs(n - 200)
+    if diff <= 10 or diff2 <= 10:
+        return True
+    else:
+        return False
