@@ -66,3 +66,7 @@ def not_string(str):
         return str
     else:
         return "not " + str
+
+def missing_char(str, n):
+    str = str[:n] + str[n+1:]
+    return str
