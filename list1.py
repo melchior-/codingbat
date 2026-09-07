@@ -21,3 +21,6 @@ def sum3(nums):
 
 def rotate_left3(nums):
     return [nums[1], nums[2], nums[0]]
+
+def reverse3(nums):
+    return [nums[2], nums[1], nums[0]]
