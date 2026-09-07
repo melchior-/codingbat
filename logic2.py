@@ -69,3 +69,11 @@ def close_far(a, b, c):
         if(abs(b-c) >= 2):
             return True
     return False
+
+def make_chocolate(small, big, goal):
+    if goal > big * 5 + small or goal % 5 > small:
+        return -1
+    reminder = goal % 5
+    if (big * 5 < goal):
+        return (goal - (big*5))
+    return reminder
