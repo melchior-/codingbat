@@ -18,3 +18,7 @@ def first_two(str):
         return str
     else:
         return str[:2]
+
+def first_half(str):
+    a = len(str)/2
+    return str[:int(a)]
