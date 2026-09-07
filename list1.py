@@ -3,3 +3,9 @@ def first_last6(nums):
         return True
     else:
         return False
+
+def same_first_last(nums):
+    if len(nums) >= 1 and nums[0] == nums[-1]:
+        return True
+    else:
+        return False
