@@ -12,3 +12,6 @@ def same_first_last(nums):
 
 def make_pi():
     return [3,1,4]
+
+def common_end(a,b):
+    return a[0] == b[0] or a[-1] == b[-1]
