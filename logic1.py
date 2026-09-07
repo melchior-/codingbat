@@ -49,3 +49,9 @@ def alarm_clock(day, vacation):
             return "10:00"
         else:
             return "7:00"
+
+def love6(a, b):
+    if a == 6 or b == 6 or a + b == 6 or abs(a-b) == 6:
+        return True
+    else:
+        return False
