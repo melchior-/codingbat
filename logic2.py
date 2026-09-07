@@ -18,3 +18,12 @@ def make_bricks(small, big, goal):
         return False
     return True
 
+def lone_sum(a, b, c):
+    sum = a + b + c
+    if (a == b or a == c):
+        sum -= a
+    if (b == a or b == c):
+        sum -= b
+    if (c == a or c == b):
+        sum -= c
+    return sum
