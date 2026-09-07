@@ -8,3 +8,9 @@ def front_times(str, n):
     else:
         front = str[0:3]
         return front * n
+
+def string_bits(str):
+    return_str = ""
+    for i in range(0, len(str), 2):
+        return_str += str[i]
+    return return_str
