@@ -22,3 +22,23 @@ def count_code(str):
             count += 1
     return count
 
+def end_other(a, b):
+    a = a.lower()
+    b = b.lower()
+
+    if len(a) <= len(b):
+        diff = len(b) - len(a)
+        comp = b[diff:]
+        if comp == a:
+            return True
+        else:
+            return False
+    elif len(b) <= len(a):
+        diff = len(a) - len(b)
+        comp = a[diff:]
+        if comp == b:
+            return True
+        else:
+            return False
+    else:
+        return False
