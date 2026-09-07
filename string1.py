@@ -25,3 +25,12 @@ def first_half(str):
 
 def without_end(str):
     return str[1:-1]
+
+def combo_string(a, b):
+    if len(a) < len(b):
+        short = a
+        long = b
+    else:
+        short = b
+        long = a
+    return short + long + short
