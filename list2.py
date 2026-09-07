@@ -34,3 +34,17 @@ def sum13(nums):
             continue
         sum += num
     return sum
+
+def sum67(nums):
+    sum = 0
+    prev6 = False
+    for num in nums:
+        if num == 6:
+            prev6 = True
+            continue
+        if prev6:
+            if num == 7:
+                prev6 = False
+            continue
+        sum += num
+    return sum
