@@ -22,3 +22,6 @@ def first_two(str):
 def first_half(str):
     a = len(str)/2
     return str[:int(a)]
+
+def without_end(str):
+    return str[1:-1]
