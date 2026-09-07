@@ -59,3 +59,10 @@ def pos_neg(a, b, negative):
             return True
         else:
             return False
+
+def not_string(str):
+    prefix = str[:3]
+    if prefix == "not":
+        return str
+    else:
+        return "not " + str
