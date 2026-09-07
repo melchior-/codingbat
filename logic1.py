@@ -19,3 +19,15 @@ def squirrel_play(temp, is_summer):
         return temp >= 60 and temp <= 100
     else:
         return temp >= 60 and temp <= 90
+
+def caught_speeding(speed, is_birthday):
+    increment = 0
+    if is_birthday:
+        increment = 5
+    speed = speed - increment
+    if speed <= 60:
+        return 0
+    elif speed >= 61 and speed <= 80:
+        return 1
+    else:
+        return 2
