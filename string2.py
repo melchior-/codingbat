@@ -6,3 +6,11 @@ def double_char(str):
 
 def count_hi(str):
     return str.count("hi")
+
+def cat_dog(str):
+    cats = str.count("cat")
+    dogs = str.count("dog")
+    if cats == dogs:
+        return True
+    else:
+        return False
