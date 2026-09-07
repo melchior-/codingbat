@@ -15,3 +15,6 @@ def make_pi():
 
 def common_end(a,b):
     return a[0] == b[0] or a[-1] == b[-1]
+
+def sum3(nums):
+    return nums[0] + nums[1] + nums[2]
