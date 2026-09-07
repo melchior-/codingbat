@@ -61,3 +61,12 @@ def in1to10(n, outside_mode):
         return n <= 1 or n >= 10
     else:
         return n >= 1 and n <= 10
+
+def near_ten(num):
+    mod = num % 10
+    if mod + 1 == 10 or mod + 2 == 10 or mod - 1 == 10 or mod - 2 == 10 or mod - 1 == 0 or mod - 2 == 0:
+        return True
+    elif mod == 0:
+        return True
+    else:
+        return False
