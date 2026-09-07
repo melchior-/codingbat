@@ -31,3 +31,10 @@ def caught_speeding(speed, is_birthday):
         return 1
     else:
         return 2
+
+def sorta_sum(a, b):
+    sum = a+b
+    if sum >= 10 and sum <= 19:
+        sum = 20
+    return sum
+    
