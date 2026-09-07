@@ -34,3 +34,6 @@ def combo_string(a, b):
         short = b
         long = a
     return short + long + short
+
+def non_start(a, b):
+    return a[1:] + b[1:]
