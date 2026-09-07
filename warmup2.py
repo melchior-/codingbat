@@ -35,4 +35,10 @@ def last2(str):
 
 def array_count9(nums):
     return nums.count(9)
+
+def array_front9(nums):
+    if len(nums) < 4:
+        return nums.count(9) >= 1
+    else:
+        return nums[0:4].count(9) >= 1
         
