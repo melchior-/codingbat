@@ -48,3 +48,13 @@ def fix_teen(n):
     if n >= 13 and n <= 19:
         return 0
     return n
+
+def round_sum(a, b, c):
+    return round10(a) + round10(b) + round10(c)
+
+def round10(num):
+    mod = num % 10
+    if mod >= 5:
+        return (10 - mod) + num
+    else:
+        return num - mod
