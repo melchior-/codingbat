@@ -24,3 +24,9 @@ def diff21(n):
         return 2*diff
     else:
         return diff
+
+def parrot_trouble(talking, hour):
+    if talking and (hour < 7 or hour > 20):
+        return True
+    else:
+        return False
